@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CustomAppbarActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_display_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/custom_3"
+            android:minHeight="?attr/actionBarSize"
+            app:logo="@drawable/android"
+            app:subtitle="Create android custom toolbar"
+            app:subtitleTextColor="@color/black"
+            app:title="Custom Toolbar"
+            app:titleMarginStart="24dp"
+            app:titleTextColor="@color/custom_1" />
+    </com.google.android.material.appbar.AppBarLayout>
+</LinearLayout>
